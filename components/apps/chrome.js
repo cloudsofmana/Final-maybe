@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 export class Chrome extends Component {
     constructor() {
         super();
-        this.home_url = 'https://www.google.com/webhp?igu=1';
+        this.home_url = 'https://mee6.xyz/iotb';
         this.state = {
-            url: 'https://www.google.com/webhp?igu=1',
-            display_url: "https://www.google.com",
+            url: 'https://mee6.xyz/iotb',
+            display_url: "mee6.isleoftheblessed.org",
         }
     }
 
@@ -28,7 +28,7 @@ export class Chrome extends Component {
     }
 
     goToHome = () => {
-        this.setState({ url: this.home_url, display_url: "https://www.google.com" });
+        this.setState({ url: this.home_url, display_url: "https://mee6.isleoftheblessed.org" });
         this.refreshChrome();
     }
 
@@ -40,15 +40,15 @@ export class Chrome extends Component {
             url = url.trim();
             if (url.length === 0) return;
 
-            if (url.indexOf("http://") !== 0 && url.indexOf("https://") !== 0) {
-                url = "https://" + url;
+            if (url.indexOf("https://mee6.xyz/iotb") !== 0 && url.indexOf("https://mee6.xyz/iotb") !== 0) {
+                url = "https://mee6.xyz/iotb" + url;
             }
 
             url = encodeURI(url);
             display_url = url;
-            if (url.includes("google.com")) { // 😅
-                url = 'https://www.google.com/webhp?igu=1';
-                display_url = "https://www.google.com";
+            if (url.includes("mee6.xyz")) { // 😅
+                url = 'https://mee6.xyz/iotb';
+                display_url = "ttps://mee6.isleoftheblessed.org";
             }
             this.setState({ url, display_url: url });
             this.storeVisitedUrl(url, display_url);
