@@ -29,7 +29,7 @@ const apps = [
     },
     {
         id: "about-vivek",
-        title: "About Vivek",
+        title: "About IOTB",
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: true,
@@ -51,7 +51,7 @@ const apps = [
         icon: './themes/Yaru/apps/bash.png',
         disabled: false,
         favourite: true,
-        desktop_shortcut: false,
+        desktop_shortcut: true,
         screen: displayTerminal,
     },
     {
@@ -60,7 +60,7 @@ const apps = [
         icon: './themes/Yaru/apps/spotify.png',
         disabled: false,
         favourite: true,
-        desktop_shortcut: false,
+        desktop_shortcut: true,
         screen: displaySpotify, // India Top 50 Playlist 😅
     },
     {
@@ -69,7 +69,7 @@ const apps = [
         icon: './themes/Yaru/apps/gnome-control-center.png',
         disabled: false,
         favourite: true,
-        desktop_shortcut: false,
+        desktop_shortcut: true,
         screen: displaySettings,
     },
     {
