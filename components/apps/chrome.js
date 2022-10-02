@@ -6,7 +6,7 @@ export class Chrome extends Component {
         this.home_url = 'https://mee6.xyz/iotb';
         this.state = {
             url: 'https://mee6.xyz/iotb',
-            display_url: "mee6.isleoftheblessed.org",
+            display_url: "https://mee6.xyz/iotb",
         }
     }
 
@@ -28,7 +28,7 @@ export class Chrome extends Component {
     }
 
     goToHome = () => {
-        this.setState({ url: this.home_url, display_url: "https://mee6.isleoftheblessed.org" });
+        this.setState({ url: this.home_url, display_url: "https://mee6.xyz/iotb" });
         this.refreshChrome();
     }
 
@@ -48,7 +48,7 @@ export class Chrome extends Component {
             display_url = url;
             if (url.includes("mee6.xyz")) { // 😅
                 url = 'https://mee6.xyz/iotb';
-                display_url = "ttps://mee6.isleoftheblessed.org";
+                display_url = "https://mee6.xyz/iotb";
             }
             this.setState({ url, display_url: url });
             this.storeVisitedUrl(url, display_url);
