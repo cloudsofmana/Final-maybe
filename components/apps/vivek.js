@@ -245,7 +245,7 @@ function Projects() {
             description: [
                 "1. Understand drug use as a complex, multi-faceted phenomenon that encompasses a continuum of behaviors from severe use to total abstinence, and acknowledges that some ways of using drugs are clearly safer than others",
             ],
-            domains: ["Risk", "Assesment"]
+            domains: ["Research", "Learning"]
         },       {
             name: "Rule number 2",
             date: "2",
