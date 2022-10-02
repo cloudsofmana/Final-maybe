@@ -278,7 +278,7 @@ export class WindowMainScreen extends Component {
     constructor() {
         super();
         this.state = {
-            setDarkBg: false,
+            setDarkBg: true,
         }
     }
     componentDidMount() {
