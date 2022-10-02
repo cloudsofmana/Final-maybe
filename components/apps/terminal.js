@@ -14,11 +14,11 @@ export class Terminal extends Component {
         this.child_directories = {
             root: ["books", "projects", "personal-documents", "skills", "languages", "PDPU", "interests"],
             PDPU: ["Sem-6"],
-            books: ["Eric-Jorgenson_The-Almanack-of-Naval-Ravikant.pdf", "Elon Musk: How the Billionaire CEO of SpaceX.pdf", "The $100 Startup_CHRIS_GUILLEBEAU.pdf", "The_Magic_of_Thinking_Big.pdf"],
-            skills: ["Front-end development", "React.js", "jQuery", "Flutter", "Express.js", "SQL", "Firebase"],
-            projects: ["vivek9patel-personal-portfolio", "synonyms-list-react", "economist.com-unlocked", "Improve-Codeforces", "flutter-banking-app", "Meditech-Healthcare", "CPU-Scheduling-APP-React-Native"],
-            interests: ["Software Engineering", "Deep Learning", "Computer Vision"],
-            languages: ["Javascript", "C++", "Java", "Dart"],
+            books: ['Busty Argonian Maid.ebook', 'How To Be Nosy.pdf', 'Goth Girls For Dummies.ebook', 'How to Mind Your Own Business.pdf'],
+            skills: ["", "React.js", "jQuery", "Flutter", "Express.js", "SQL", "Firebase"],
+            projects: ["IsleOfTheBlessed", "Peer2Peer RMM", "ZeroTier WebServer/FTP"],
+            interests: ["SNetwork Administration", "Community Support", "Music Production"],
+            languages: ["React", "Python", "Powershhell", "html"],
         };
         this.state = {
             terminal: [],
@@ -56,7 +56,7 @@ export class Terminal extends Component {
             <React.Fragment key={id}>
                 <div className="flex w-full h-5">
                     <div className="flex">
-                        <div className=" text-ubt-green">vivek@Dell</div>
+                        <div className=" text-ubt-green">clouds@iotb</div>
                         <div className="text-white mx-px font-medium">:</div>
                         <div className=" text-ubt-blue">{this.current_directory}</div>
                         <div className="text-white mx-px font-medium mr-1">$</div>
