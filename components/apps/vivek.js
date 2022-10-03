@@ -243,7 +243,7 @@ function Projects() {
             date: "1",
             link: "https://discord.gg/dBZGS2NQvW",
             description: [
-                "1. Understand drug use as a complex, multi-faceted phenomenon that encompasses a continuum of behaviors from severe use to total abstinence, and acknowledges that some ways of using drugs are clearly safer than others",
+                "1. Accept for better or worse, that licit and illicit drug use is part of our world and chooses to work to minimize its harmful effects rather than simply ignore or condemn them",
             ],
             domains: ["Research", "Learning"]
         },       {
