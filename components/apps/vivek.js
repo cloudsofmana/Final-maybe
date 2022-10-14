@@ -121,7 +121,7 @@ function About() {
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">Our primary <span className=" font-medium">platform</span> is <u className=' cursor-pointer '> <a href="https://discord.gg/dBZGS2NQvW" target={"_blank"}>Discord</a> </u>, and we work to minimize harmful effects of drug use rather than simply ignore or condemn them (Contact Us <a className='text-underline' href='mailto:support@isleoftheblessed.org'><u>support@isleoftheblessed.org</u></a> )</li>
+                <li className=" list-pc">Our primary <span className=" font-medium">platform</span> is <u className=' cursor-pointer '> <a href="https://discord.gg/iotb" target={"_blank"}>Discord</a> </u>, and we work to minimize harmful effects of drug use rather than simply ignore or condemn them (Contact Us <a className='text-underline' href='mailto:support@isleoftheblessed.org'><u>support@isleoftheblessed.org</u></a> )</li>
                 <li className=" mt-3 list-building"> Harm Reduction is also a movement for social justice built on a belief in, and respect for, the rights of people who use drugs.</li>
                 <li className=" mt-3 list-time"> We accept drug use as a complex, multi-faceted phenomenon that encompasses a continuum of behaviors from severe use to total abstinence, and acknowledges that some ways of using drugs are clearly safer than others. <a href="https://cdn.discordapp.com/attachments/1023587164497391636/1023621137344770068/Combo_2.png" target="_blank" rel="noreferrer"> Drug Combination Chart.</a></li>
                 <li className=" mt-3 list-star"> Our purpose is to establish quality of individual and community life and well-being, not necessarily cessation of all drug use!</li>
@@ -239,7 +239,7 @@ function Projects() {
         {
             name: "Opening Statement",
             date: "10/1/2022",
-            link: "https://discord.gg/dBZGS2NQvW",
+            link: "https://discord.gg/iotb",
             description: [
                 "Harm reduction is a set of practical strategies and ideas aimed at reducing negative consequences associated with drug use. Harm Reduction is also a movement for social justice built on a belief in, and respect for, the rights of people who use drugs.",
             ],
@@ -248,7 +248,7 @@ function Projects() {
         {
             name: "Rule Numer 1",
             date: "1",
-            link: "https://discord.gg/dBZGS2NQvW",
+            link: "https://discord.gg/iotb",
             description: [
                 "1. Accept for better or worse, that licit and illicit drug use is part of our world and chooses to work to minimize its harmful effects rather than simply ignore or condemn them",
             ],
@@ -256,7 +256,7 @@ function Projects() {
         },       {
             name: "Rule number 2",
             date: "2",
-            link: "https://discord.gg/dBZGS2NQvW",
+            link: "https://discord.gg/iotb",
             description: [
                 "2. Understand drug use as a complex, multi-faceted phenomenon that encompasses a continuum of behaviors from severe use to total abstinence, and acknowledges that some ways of using drugs are clearly safer than others",
             ],
@@ -265,7 +265,7 @@ function Projects() {
         {
             name: "Rule number 3",
             date: "3",
-            link: "https://discord.gg/dBZGS2NQvW",
+            link: "https://discord.gg/iotb",
             description: [
                 "3. Establish quality of individual and community life and well-being — not necessarily cessation of all drug use — as the criteria for successful interventions and policies",
             ],
@@ -274,7 +274,7 @@ function Projects() {
         {
             name: "Rule Number 4",
             date: "4",
-            link: "https://discord.gg/dBZGS2NQvW",
+            link: "https://discord.gg/iotb",
             description: [
                 "4. Call for the non-judgmental, non-coercive provision of services and resources to people who use drugs and the communities in which they live in order to assist them in reducing attendant harm",
             ],
@@ -283,7 +283,7 @@ function Projects() {
         {
             name: "Rule Number 5",
             date: "5",
-            link: "https://discord.gg/dBZGS2NQvW",
+            link: "https://discord.gg/iotb",
             description: [
                 "5. Ensure that people who use drugs and those with a history of drug use routinely have a real voice in the creation of programs and policies designed to serve them.",
             ],
@@ -292,7 +292,7 @@ function Projects() {
         {
             name: "Rule Number 6",
             date: "6",
-            link: "https://discord.gg/dBZGS2NQvW",
+            link: "https://discord.gg/iotb",
             description: [
                 "6. Affirm people who use drugs (PWUD) themselves as the primary agents of reducing the harms of their drug use and seeks to empower PWUD to share information and support each other in strategies which meet their actual conditions of use.",
             ],
@@ -301,7 +301,7 @@ function Projects() {
         {
             name: "Rule Number 7",
             date: "7",
-            link: "https://discord.gg/dBZGS2NQvW",
+            link: "https://discord.gg/iotb",
             description: [
                 "7. Recognize that the realities of poverty, class, racism, social isolation, past trauma, sex-based discrimination, and other social inequalities affect both people’s vulnerability to and capacity for effectively dealing with drug-related harm",
             ],
@@ -310,7 +310,7 @@ function Projects() {
         {
             name: "Rule Number 8",
             date: "8",
-            link: "https://discord.gg/dBZGS2NQvW",
+            link: "https://discord.gg/iotb",
             description: [
                 "8. Do not attempt to minimize or ignore the real and tragic harm and danger that can be associated with illicit drug use",
             ],
